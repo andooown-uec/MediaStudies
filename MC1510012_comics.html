@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="ja"> 
+<head> 
+    <meta charset="utf-8">
+    <title>move comics</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.onload = function(){
+            document.getElementById("video01").play();
+            document.getElementById("video01").addEventListener("ended", function(){
+                document.getElementById("video02").play();
+            }, false);
+            document.getElementById("video02").addEventListener("ended", function(){
+                document.getElementById("video03").play();
+            }, false);
+            document.getElementById("video03").addEventListener("ended", function(){
+                document.getElementById("video04").play();
+            }, false);
+            document.getElementById("video04").addEventListener("ended", function(){
+                document.getElementById("video05").play();
+            }, false);
+            document.getElementById("video05").addEventListener("ended", function(){
+                document.getElementById("video06").play();
+            }, false);
+            document.getElementById("video06").addEventListener("ended", function(){
+                document.getElementById("video07").play();
+            }, false);
+            document.getElementById("video07").addEventListener("ended", function(){
+                document.getElementById("video08").play();
+            }, false);
+            document.getElementById("video08").addEventListener("ended", function(){
+                document.getElementById("video09").play();
+            }, false);
+            document.getElementById("video09").addEventListener("ended", function(){
+                document.getElementById("video10").play();
+            }, false);
+        }
+    </script>
+</head>
+<body>
+    <div id="page1" class="page">
+        <div id="pat">
+            <div id="frame01">
+                <video preload="auto" id="video01">
+                    <source src="movies/video01.webm" type="video/webm" />
+                </video>
+            </div>
+            <div id="frame02">
+                <video preload="auto" id="video02">
+                    <source src="movies/video02.webm" type="video/webm" />
+                </video>
+            </div>
+            <div id="frame03">
+                <video preload="auto" id="video03">
+                    <source src="movies/video03.webm" type="video/webm" />
+                </video>
+            </div>
+            <div id="frame04">
+                <video preload="auto" id="video04">
+                    <source src="movies/video04.webm" type="video/webm" />
+                </video>
+            </div>
+        </div>
+    </div>
+    <div id="page2" class="page">
+        <div id="pat">
+            <div id="frame05">
+                <video preload="auto" id="video05">
+                    <source src="movies/video05.webm" type="video/webm" />
+                </video>
+            </div>
+            <div id="frame06">
+                <video preload="auto" id="video06">
+                    <source src="movies/video06.webm" type="video/webm" />
+                </video>
+            </div>
+            <div id="frame07">
+                <video preload="auto" id="video07">
+                    <source src="movies/video07.webm" type="video/webm" />
+                </video>
+            </div>
+            <div id="frame08">
+                <video preload="auto" id="video08">
+                    <source src="movies/video08.webm" type="video/webm" />
+                </video>
+            </div>
+            <div id="frame09">
+                <video preload="auto" id="video09">
+                    <source src="movies/video09.webm" type="video/webm" />
+                </video>
+            </div>
+            <div id="frame10">
+                <video preload="auto" id="video10">
+                    <source src="movies/video10.webm" type="video/webm" />
+                </video>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
