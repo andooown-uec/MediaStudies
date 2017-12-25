@@ -19,8 +19,8 @@
 
 #pat #frame01 video {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 10px;
+    left: 10px;
     width: 415px;
     height: 200px;
     background: #000;
@@ -28,8 +28,8 @@
 
 #pat #frame02 video {
     position: absolute;
-    top: 235px;
-    left: 240px;
+    top: 220px;
+    left: 225px;
     width: 200px;
     height: 200px;
     background: #000
@@ -37,8 +37,8 @@
 
 #pat #frame03 video {
     position: absolute;
-    top: 235px;
-    left: 25px;
+    top: 220px;
+    left: 10px;
     width: 200px;
     height: 200px;
     background: #000
@@ -46,8 +46,8 @@
 
 #pat #frame04 video {
     position: absolute;
-    top: 450px;
-    left: 25px;
+    top: 435px;
+    left: 10px;
     width: 415px;
     height: 200px;
     background: #000;
@@ -56,8 +56,8 @@
 
 #pat #frame05 video {
     position: absolute;
-    top: 25px;
-    left: 240px;
+    top: 10px;
+    left: 225px;
     width: 200px;
     height: 200px;
     background: #000
@@ -65,8 +65,8 @@
 
 #pat #frame06 video {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 10px;
+    left: 10px;
     width: 200px;
     height: 200px;
     background: #000
@@ -74,8 +74,8 @@
 
 #pat #frame07 video {
     position: absolute;
-    top: 235px;
-    left: 240px;
+    top: 220px;
+    left: 225px;
     width: 200px;
     height: 200px;
     background: #000
@@ -83,8 +83,8 @@
 
 #pat #frame08 video {
     position: absolute;
-    top: 235px;
-    left: 25px;
+    top: 220px;
+    left: 10px;
     width: 200px;
     height: 200px;
     background: #000
@@ -92,8 +92,8 @@
 
 #pat #frame09 video {
     position: absolute;
-    top: 450px;
-    left: 300px;
+    top: 435px;
+    left: 285px;
     width: 140px;
     height: 200px;
     background: #000
@@ -101,8 +101,8 @@
 
 #pat #frame10 video {
     position: absolute;
-    top: 450px;
-    left: 25px;
+    top: 435px;
+    left: 10px;
     width: 260px;
     height: 200px;
     background: #000
